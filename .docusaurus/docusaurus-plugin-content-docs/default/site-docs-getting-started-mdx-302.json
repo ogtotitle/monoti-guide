@@ -1,0 +1,18 @@
+{
+  "id": "getting-started",
+  "title": "🚀 시작하기",
+  "description": "모노티는 웹, iOS, Android에서 사용할 수 있는 올인원 워크 & 라이프 플랫폼입니다.",
+  "source": "@site/docs/getting-started.mdx",
+  "sourceDirName": ".",
+  "slug": "/getting-started",
+  "permalink": "/docs/getting-started",
+  "draft": false,
+  "unlisted": false,
+  "tags": [],
+  "version": "current",
+  "frontMatter": {
+    "title": "🚀 시작하기",
+    "sidebar_label": "🚀 시작하기"
+  },
+  "sidebar": "tutorialSidebar"
+}

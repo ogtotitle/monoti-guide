@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmonoti_guide=self.webpackChunkmonoti_guide||[]).push([[903],{1912:o=>{o.exports=JSON.parse('{"blogBasePath":"/blog","blogTitle":"Blog","authorsListPath":"/blog/authors"}')}}]);

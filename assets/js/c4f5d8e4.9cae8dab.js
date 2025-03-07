@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkmonoti_guide=self.webpackChunkmonoti_guide||[]).push([[634],{9179:(t,e,u)=>{u.r(e),u.d(e,{default:()=>d});u(6540);var n=u(6347),s=u(4848);function d(){return(0,s.jsx)(n.rd,{to:"/docs/getting-started"})}}}]);
