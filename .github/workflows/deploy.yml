@@ -23,5 +23,5 @@ jobs:
       - name: Build Docusaurus
         run: npm run build
 
-      - name: Deploy to GitHub Pages (Option 1: USE_SSH)
+      - name: Deploy using SSH
         run: USE_SSH=true npm run deploy
