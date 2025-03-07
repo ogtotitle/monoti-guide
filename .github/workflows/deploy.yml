@@ -3,7 +3,7 @@ name: Deploy to GitHub Pages
 on:
   push:
     branches:
-      - main  # main 브랜치 푸시 시 자동 배포
+      - main  # main 브랜치에 푸시될 때 자동 배포
 
 jobs:
   deploy:
@@ -23,5 +23,7 @@ jobs:
       - name: Build Docusaurus
         run: npm run build
 
-      - name: Deploy using SSH
-        run: USE_SSH=true npm run deploy
+      - name: Deploy to GitHub Pages
+        run: GIT_USER=github-actions npm run deploy
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
